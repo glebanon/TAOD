@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Guy Lebanon&#39;s website</title>
+    <link>./home/</link>
+    <description>Recent content in Homes on Guy Lebanon&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="./home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>./home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>./home/about/</guid>
+      <description>Guy Lebanon is a director at Amazon where he leads the search relevance, query understanding, search labs, and human judgements teams (about 100 people overall). Previously, he was a director at Netflix where he lead its homepage personalization efforts including its well known movie recommendation system. Before that he had engineering management positions at Amazon and LinkedIn and was a tenured professor at the Georgia Institute of Technology. Guy published several books and over 70 refereed articles in machine learning, and received a PhD from Carnegie Mellon University.</description>
+    </item>
+    
+  </channel>
+</rss>

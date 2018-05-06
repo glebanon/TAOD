@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guy Lebanon&#39;s website on Guy Lebanon&#39;s website</title>
+    <link>./</link>
+    <description>Recent content in Guy Lebanon&#39;s website on Guy Lebanon&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <atom:link href="./" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>./book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./book/</guid>
+      <description>&lt;p&gt;A few years ago I was teaching probability theory at Purdue to undergrads and at the same time I was training several ML graduate students in probability and statistics. I wrote the book below with the intention of adding more volumes that include statistics and machine learning but did not get a chance to do so yet.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The content is almost self-contained and includes mathematical prerequisites and basic computing concepts.&lt;/li&gt;
+&lt;li&gt;The R programming language is used to demonstrate the contents. Full code is available, facilitating reproducibility of experiments and letting readers experiment with variations of the code.&lt;/li&gt;
+&lt;li&gt;The presentation is mathematically rigorous, and includes derivations and proofs in most cases.&lt;/li&gt;
+&lt;li&gt;The book is available through &lt;a href=&#34;https://www.amazon.com/Probability-Analysis-Data-Guy-Lebanon/dp/1479344761&#34;&gt;Amazon&lt;/a&gt; or in HTML form via this &lt;a href=&#34;http://theanalysisofdata.com/probability/0_2.html&#34;&gt;single panel viewer&lt;/a&gt; or via this &lt;a href=&#34;http://theanalysisofdata.com/probability/viewer2.html&#34;&gt;double panel viewer&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also have several sample chapters from the unfinished second volume on computing (with Mohamed El-Geish):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/computing/R.pdf&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/computing/Data Visualization.pdf&#34;&gt;Data Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/computing/data_processing.pdf&#34;&gt;Data Processing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additional teaching notes are available &lt;a href=&#34;../notes/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./notes/</guid>
+      <description>
+
+&lt;h2 id=&#34;teaching-notes&#34;&gt;Teaching Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The notes below are written in a concise form that is less readable than a textbook. They may be useful as condensed summaries but are not meant to be a replacement for a more complete explanation.&lt;/li&gt;
+&lt;li&gt;Some of the notes were written as part of course material. As such they are not written in full generality and sometimes are not completely accurate. For example, measure-theoretic arguments are omitted and some assumptions such as differentiability are implicitly made.&lt;/li&gt;
+&lt;li&gt;Please notify me if you find any mistakes or typos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;probability-most-of-these-notes-are-superceded-by-my-probability-book-book&#34;&gt;Probability (Most of these notes are superceded by my &lt;a href=&#34;../book&#34;&gt;probability book&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/probBasicDefinitions.pdf&#34;&gt;Sample space, events, event space, probability as a function and its axioms. Discrete and continuous sample spaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/examplesProbMeasures.pdf&#34;&gt;Probability distributions on finite sample spaces, classical model for finite and continuous sample spaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/condProb.pdf&#34;&gt;Conditional probability, independence of events, Bayes theorem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/randomVariables.pdf&#34;&gt;Random variables: basic definitions, discrete and continuous&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/RVexamples.pdf&#34;&gt;Important random variables: Bernoulli, geometric, binomial, Poisson, uniform, exponential, normal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/combinatorics.pdf&#34;&gt;Basic Combinatorics for Probability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/functionsRV.pdf&#34;&gt;Functions of Random Variable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/expectations.pdf&#34;&gt;Expectations and Variances&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/vectorRV.pdf&#34;&gt;Vector of Random Variables - basic definitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/functionsVectorRV.pdf&#34;&gt;Functions of vector of random variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/condRV.pdf&#34;&gt;Conditional probability and vector random variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/expectationVectorRV.pdf&#34;&gt;Expectation and vector random variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/multinomialAndGaussian.pdf&#34;&gt;The multinomial and the multivariate Gaussian distributions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/wllnAndClt.pdf&#34;&gt;The weak law of large numbers and central limit theorem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/mgf.pdf&#34;&gt;The moment generating function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/&#34;&gt;The Poisson process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/poissonProcess.pdf&#34;&gt;Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;statistics&#34;&gt;Statistics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/samplingDist.pdf&#34;&gt;Sampling Distributions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/estimators1.pdf&#34;&gt;The bias, variance and MSE of estimators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/confInt.pdf&#34;&gt;Confidence intervals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/efficiency.pdf&#34;&gt;Relative efficiency, efficiency and the Fisher information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/consistency.pdf&#34;&gt;Consistency of estimators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/sufficiency.pdf&#34;&gt;Sufficient statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/RaoBlackwell.pdf&#34;&gt;The Rao-Blackwell theorem and the UMVUE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/mome.pdf&#34;&gt;The method of moments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/mle.pdf&#34;&gt;Maximum likelihood estimation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/expFamily.pdf&#34;&gt;Exponential family of distributions and logistic regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/hypTest.pdf&#34;&gt;Hypothesis tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/power.pdf&#34;&gt;p-Values, power and the Neyman Pearson lemma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/PearsonChiSquared.pdf&#34;&gt;Pearson&amp;rsquo;s Chi-square&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/linReg.pdf&#34;&gt;Linear regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/regularization.pdf&#34;&gt;Inference in High Dimensions and Regularization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/mleConsistency.pdf&#34;&gt;Consistency of the maximum likelihood estimator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/mleEfficiency.pdf&#34;&gt;Asymptotic Efficiency of the maximum likelihood estimator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/logreg.pdf&#34;&gt;Linear Classifiers and Logistic Regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/sampling.pdf&#34;&gt;Basic sampling methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/metropolis.pdf&#34;&gt;Markov chain Monte Carlo and Metropolis-Hastings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/missingDataEM.pdf&#34;&gt;Missing data and the EM algorithm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/HMM.pdf&#34;&gt;Hidden Markov models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/genClassifiers.pdf&#34;&gt;Statistical Classifiers - the Generative Story&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/svm.pdf&#34;&gt;Support vector machines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/linRegInf.pdf&#34;&gt;Inference in Linear Regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/mEstimators.pdf&#34;&gt;M-estimators and Z-estimators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/sure.pdf&#34;&gt;Stein&amp;rsquo;s Unbiased Risk Estimator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/JamesStein.pdf&#34;&gt;Shrinkage and the James-Stein Estimator for Normal Means&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;random-processes-and-lti-filtering-most-of-these-notes-are-superceded-by-my-probability-book-book&#34;&gt;Random Processes and LTI filtering (Most of these notes are superceded by my &lt;a href=&#34;../book&#34;&gt;probability book&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/RPdefinitions.pdf&#34;&gt;Random Processes - Basic Definitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/DTDVRP.pdf&#34;&gt;Discrete-time discrete-valued random processes (the iid process and counting processes)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/DTDVRP.pdf&#34;&gt;Discrete-time discrete-valued random processes (the iid process and counting processes)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/CTDVRP.pdf&#34;&gt;Continuous-time discrete-valued random processes (Poisson process)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/CTCVRP.pdf&#34;&gt;Continuous-time continuous-valued random processes (Gaussian processes and the Wiener process)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/stationarity.pdf&#34;&gt;Stationary and wide sense stationary (WSS) processes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/filteringRP.pdf&#34;&gt;Response of LTI systems to WSS processes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/markovChains.pdf&#34;&gt;Markov chains&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/TuringMachine.pdf&#34;&gt;Turing Machines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/algs.pdf&#34;&gt;Complexity and Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/opSys.pdf&#34;&gt;Operating Systems and Useful Linux Commands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/convexSets.pdf&#34;&gt;Convex Sets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/convexFunctions.pdf&#34;&gt;Convex Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/notes/connections.pdf&#34;&gt;Connections and covariant derivatives&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;r-sample-chapters-from-an-upcoming-book-with-mohamed-el-geish&#34;&gt;R (sample chapters from an upcoming book with Mohamed El-Geish)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/computing/R.pdf&#34;&gt;Programming with R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/computing/Data%20Visualization.pdf&#34;&gt;Visualizing Data with R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://theanalysisofdata.com/computing/data_processing.pdf&#34;&gt;Processing Data with R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./papers/</guid>
+      <description>
+
+&lt;h1 id=&#34;books&#34;&gt;Books&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon and S. V. N. Vishwanathan (Editors). &lt;a href=&#34;http://www.jmlr.org/proceedings/papers/v38/&#34;&gt;&lt;em&gt;Proceedings of the 18th International AI and Statistics Conference&lt;/em&gt;&lt;/a&gt;, JMLR Workshop and Conference Proceedings, Volume 38, 2015.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://www.amazon.com/Riemannian-Geometry-Statistical-Machine-Learning/dp/3659682020&#34;&gt;&lt;em&gt;Riemannian Geometry and Statistical Machine Learning&lt;/em&gt;&lt;/a&gt;. Lambert Academic Publishing, 2015 (Reprint of 2005 PhD Dissertation).&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://www.amazon.com/Probability-Analysis-Data-Guy-Lebanon/dp/1479344761/&#34;&gt;&lt;em&gt;Probability&lt;/em&gt;&lt;/a&gt;, The Analysis of Data, volume 1, 2013 (amazon, e-store).&lt;/li&gt;
+&lt;li&gt;X.-W. Chen, G. Lebanon, M. Zaki, and H. Wang (Editors). &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=2396761&#34;&gt;&lt;em&gt;Proceedings of the 21st ACM Conference on Information and Knowledge Management&lt;/em&gt;&lt;/a&gt;. ACM Press 2012.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;papers&#34;&gt;Papers&lt;/h1&gt;
+
+&lt;h2 id=&#34;2016&#34;&gt;2016&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J. Lee, S. Kim, G. Lebanon, Y. Singer, and S. Bengio. &lt;a href=&#34;http://jmlr.org/papers/v17/14-301.html&#34;&gt;&lt;em&gt;LLORMA: Local Low-Rank Matrix Approximation&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 17(15):1-24, 2016.&lt;/li&gt;
+&lt;li&gt;K. Balasubramanian, K. Yu, and G. Lebanon. &lt;a href=&#34;http://dx.doi.org/10.1016/j.artint.2016.04.009&#34;&gt;&lt;em&gt;Smooth Sparse Coding via Marginal Regression for Learning Sparse Representations&lt;/em&gt;&lt;/a&gt;. Artificial Intelligence 238(Sep):83-95, 2016.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2015&#34;&gt;2015&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;D. Agarwal, B.-C. Chen, Q. He, Z. Hua, G. Lebanon, Y. Ma, P. Shivaswamy, H.-P. Tseng, J. Yang and L. Zhang. &lt;em&gt;Personalizing LinkedIn Feed&lt;/em&gt;. Proceedings of the 21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2015.&lt;/li&gt;
+&lt;li&gt;S. Kim, J. Lee, G. Lebanon and H. Park. &lt;em&gt;Estimating Temporal Dynamics of Human Emotions&lt;/em&gt;. Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI) 2015.&lt;/li&gt;
+&lt;li&gt;S. Kim, J. Lee, G. Lebanon and H. Park. &lt;em&gt;Local Context Sparse Coding&lt;/em&gt;. Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI) 2015.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2014&#34;&gt;2014&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J. Lee, S. Bengio, S. Kim, G. Lebanon, Y. Singer. &lt;a href=&#34;http://theanalysisofdata.com/gl/lcr.pdf&#34;&gt;&lt;em&gt;Local Collaborative Ranking&lt;/em&gt;&lt;/a&gt;, Proceedings of the 23rd International World Wide Web Conference (WWW), 2014 (&lt;strong&gt;Best Student Paper Award&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;S. Kim, H. Park and G. Lebanon. &lt;a href=&#34;http://arxiv.org/abs/1407.7072&#34;&gt;&lt;em&gt;Fast Spammer Detection Using Structural Rank&lt;/em&gt;&lt;/a&gt;. ArXiv:1407.7072, 2014.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2013&#34;&gt;2013&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;K. Balasubramanian, K. Yu, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/ssc_icml13.pdf&#34;&gt;&lt;em&gt;Smooth Sparse Coding via Marginal Regression for Learning Sparse Representations&lt;/em&gt;&lt;/a&gt; (&lt;a href=&#34;http://theanalysisofdata.com/gl/ssc_icml13_sup.pdf&#34;&gt;supplement&lt;/a&gt;). Proceedings of the 30th International Conference on Machine Learning (ICML) 2013 (&lt;strong&gt;Best Paper Runner-Up Award&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;J. Lee, S. Kim, G. Lebanon, and Y. Singer. &lt;a href=&#34;http://theanalysisofdata.com/gl/lee_icml_2013.pdf&#34;&gt;&lt;em&gt;Local Low-Rank Matrix Approximation&lt;/em&gt;&lt;/a&gt;. Proceedings of the 30th International Conference on Machine Learning (ICML) 2013.&lt;/li&gt;
+&lt;li&gt;S. Kim, F. Li, G. Lebanon, and I. Essa. &lt;a href=&#34;http://theanalysisofdata.com/gl/kim_aistats_2013.pdf&#34;&gt;&lt;em&gt;Beyond Sentiment: The Manifold of Human Emotions&lt;/em&gt;&lt;/a&gt;. Proceedings of the 16th International Conference on Artificial Intelligence and Statistics (AISTATS), 2013.&lt;/li&gt;
+&lt;li&gt;K. Balasubramanian, B. Sriperumbudur, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/mmds.pdf&#34;&gt;&lt;em&gt;Ultrahigh dimensional feature screening based on RKHS embeddings&lt;/em&gt;&lt;/a&gt; (&lt;a href=&#34;http://theanalysisofdata.com/gl/mmds_sup.pdf&#34;&gt;supplement&lt;/a&gt;). Proceedings of the 16th International Conference on Artificial Intelligence and Statistics (AISTATS) 2013.&lt;/li&gt;
+&lt;li&gt;M. Sun, F. Li, J. Lee, K. Zhou, G. Lebanon, and H. Zha. &lt;a href=&#34;http://theanalysisofdata.com/gl/wsdm2012sun.pdf&#34;&gt;&lt;em&gt;Learning Multiple-Question Decision Trees for Cold-Start Recommendation&lt;/em&gt;&lt;/a&gt;. Proceedings of the 6th ACM International Conference on Web Search and Data Mining (WSDM) 2013.&lt;/li&gt;
+&lt;li&gt;F. Li, J. Carreira, G. Lebanon, and C. Sminchisescu. &lt;a href=&#34;http://theanalysisofdata.com/gl/li_cvpr_2013.pdf&#34;&gt;&lt;em&gt;Composite Statistical Inference for Semantic Segmentation&lt;/em&gt;&lt;/a&gt;. IEEE International Conference on Computer Vision and Pattern Recognition (CVPR) 2013.&lt;/li&gt;
+&lt;li&gt;L. Weiss, E. Briscoe, H. Hayes, O. Kemenova, S. Harbert, F. Li, G. Lebanon, C. Stewart, D. Miller Steiger, and D. Foy. &lt;a href=&#34;http://link.springer.com/chapter/10.1007/978-3-642-37210-0_33&#34;&gt;&lt;em&gt;A Comparative Study of Social Media and Traditional Polling in the Egyptian Uprising of 2011&lt;/em&gt;&lt;/a&gt;. Proceedings of the 6th International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction (SBP). Lecture Notes in Computer Science, volume 7812, pages 303-310, Springer 2013.&lt;/li&gt;
+&lt;li&gt;F. Li, J. Carreira, G. Lebanon, and C. Sminchisescu. &lt;em&gt;CSI: Composite Statistical Inference for Semantic Segmentation&lt;/em&gt;. ICML 2013 Workshop on Inferning: Interactions between Inference and Learning, 2013.&lt;/li&gt;
+&lt;li&gt;J. Lee, S. Kim, G. Lebanon, Y. Singer. &lt;em&gt;Matrix Approximation under Local Low-Rank Assumption&lt;/em&gt;, The Learning Workshop in International Conference on Learning Representations (ICLR), 2013.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2012&#34;&gt;2012&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J. Lee, M. Sun, and G. Lebanon. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v13/lee12b.html&#34;&gt;&lt;em&gt;PREA: Personalized Recommendation Algorithms Toolkit&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research, 13(Sep):2699-2703, 2012.&lt;/li&gt;
+&lt;li&gt;M. Sun, G. Lebanon, and P. Kidwell. &lt;a href=&#34;http://theanalysisofdata.com/gl/jrssRanking.pdf&#34;&gt;&lt;em&gt;Estimating Probabilities in Recommendation Systems&lt;/em&gt;&lt;/a&gt;. Journal of the Royal Statistical Society, Series C, 61(3):471-492, 2012.&lt;/li&gt;
+&lt;li&gt;J. Lee, M. Sun, S. Kim, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/mix.pdf&#34;&gt;&lt;em&gt;Automatic Feature Induction for Stagewise Collaborative Filtering&lt;/em&gt;&lt;/a&gt;. Advances in Neural Information Processing Systems 25, 2012.&lt;/li&gt;
+&lt;li&gt;K. Balasubramanian and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/moplms.pdf&#34;&gt;&lt;em&gt;The Landmark Selection Method for Multiple Output Prediction&lt;/em&gt;&lt;/a&gt;. Proc. of the 29th International Conference on Machine Learning (ICML) 2012.&lt;/li&gt;
+&lt;li&gt;L. Li, G. Lebanon, and H. Park. &lt;a href=&#34;http://theanalysisofdata.com/gl/bregmanNMF.pdf&#34;&gt;&lt;em&gt;Fast Bregman Divergence NMF using Taylor Expansion and Coordinate Descent&lt;/em&gt;&lt;/a&gt;. Proc. of the 18th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2012.&lt;/li&gt;
+&lt;li&gt;F. Li, G. Lebanon, and C. Sminchisescu. &lt;a href=&#34;http://theanalysisofdata.com/gl/cvprChebyshev.pdf&#34;&gt;&lt;em&gt;Chebyshev Approximations to the Histogram Chi-Square Kernel&lt;/em&gt;&lt;/a&gt;. IEEE International Conference on Computer Vision and Pattern Recognition (CVPR) 2012.&lt;/li&gt;
+&lt;li&gt;S. Kim, J. V. Dillon, and G. Lebanon. [&lt;em&gt;Cumulative Revision Map&lt;/em&gt;[(&lt;a href=&#34;http://arxiv.org/pdf/1205.3205.pdf&#34;&gt;http://arxiv.org/pdf/1205.3205.pdf&lt;/a&gt;). ArXiv 1205.3205, 2012.&lt;/li&gt;
+&lt;li&gt;J. Lee, M. Sun, and G. Lebanon. &lt;a href=&#34;http://arxiv.org/pdf/1205.3193.pdf&#34;&gt;&lt;em&gt;A Comparative Study of Collaborative Filtering Algorithms&lt;/em&gt;&lt;/a&gt;. ArXiv 1205.3193, 2012.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2011&#34;&gt;2011&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;K. Balasubramanian, P. Donmez, and G. Lebanon. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v12/balasubramanian11a.html&#34;&gt;&lt;em&gt;Unsupervised Supervised Learning II: Training Margin Based Classifiers without Labels&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 12(Nov):3119-3145, 2011.&lt;/li&gt;
+&lt;li&gt;P. Kidwell, G. Lebanon, and   K. Collins-Thompson. &lt;a href=&#34;http://theanalysisofdata.com/gl/readabilityJASA.pdf&#34;&gt;&lt;em&gt;Statistical Estimation of Word Acquisition with Application to Readability Prediction&lt;/em&gt;&lt;/a&gt;. Journal of the American Statistical Association 106(493):21-30, 2011.&lt;/li&gt;
+&lt;li&gt;K. Balasubramanian, P. Donmez, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/AISTATS11USL2.pdf&#34;&gt;&lt;em&gt;Unsupervised Supervised Learning II: Margin Based Classification without Labels&lt;/em&gt;&lt;/a&gt;. Proc. of the 14th International Conference on Artificial Intelligence and Statistics (AISTATS) JMLR: W&amp;amp;CP 15 2011.&lt;/li&gt;
+&lt;li&gt;M. Sun, G. Lebanon, and P. Kidwell. &lt;a href=&#34;http://theanalysisofdata.com/gl/AISTATS11ranking.pdf&#34;&gt;&lt;em&gt;Estimating Probabilities in Recommendation Systems&lt;/em&gt;&lt;/a&gt;. Proc. of the 14th International Conference on Artificial Intelligence and Statistics (AISTATS) JMLR: W&amp;amp;CP 15 2011.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2010&#34;&gt;2010&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;J. V. Dillon and G. Lebanon. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v11/dillon10a.html&#34;&gt;&lt;em&gt;Stochastic Composite Likelihood&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 11(Oct):2597-2633, 2010.&lt;/li&gt;
+&lt;li&gt;P. Donmez, G. Lebanon, and K. Balasubramanian. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v11/donmez10a.html&#34;&gt;&lt;em&gt;Unsupervised Supervised Learning I: Estimating Classification and Regression Errors without Labels&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 11(Apr):1323-1351, 2010.&lt;/li&gt;
+&lt;li&gt;G. Lebanon, Y. Zhao, and Y. Zhao. &lt;a href=&#34;http://projecteuclid.org/euclid.ejs/1276694115&#34;&gt;&lt;em&gt;Modeling Temporal Text Streams using the Local Multinomial Model&lt;/em&gt;&lt;/a&gt;. Electronic Journal of Statistics 4:566-584, 2010.&lt;/li&gt;
+&lt;li&gt;P. Kidwell and G. Lebanon. &lt;a href=&#34;http://www.ams.org/bookstore-getitem/item=CONM-516&#34;&gt;&lt;em&gt;Kernel smoothing for preference data using generating functions&lt;/em&gt;&lt;/a&gt;. In M. Viana and H. P. Wynn (eds), Algebraic Methods in Statistics and Probability II. Contemporary Mathematics Series, volume 516, American Mathematical Society, 2010.&lt;/li&gt;
+&lt;li&gt;J. V. Dillon, K. Balasubramanian, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/sslICML10.pdf&#34;&gt;&lt;em&gt;Asymptotic Analysis of Generative Semi-Supervised Learning&lt;/em&gt;&lt;/a&gt;. Proc. of the 27th International Conference on Machine Learning (ICML) 2010.&lt;/li&gt;
+&lt;li&gt;M. Sun, G. Lebanon, and K. Collins-Thompson. &lt;a href=&#34;http://theanalysisofdata.com/gl/searchEngineVis.pdf&#34;&gt;&lt;em&gt;Visualizing Differences in Web Search Algorithms using the Expected Weighted Hoeffding Distance&lt;/em&gt;&lt;/a&gt;. Proc. of the 19th International World Wide Web Conference (WWW) 2010.&lt;/li&gt;
+&lt;li&gt;S. Kim and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/colingVersionedDoc.pdf&#34;&gt;&lt;em&gt;Local Space-Time Smoothing for Version Controlled Documents&lt;/em&gt;&lt;/a&gt;. Proc. of The 23rd International Conference on Computational Linguistics (COLING) 2010.&lt;/li&gt;
+&lt;li&gt;Y. Mao, K. Balasubramanian, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/textViz.pdf&#34;&gt;&lt;em&gt;Dimensionality Reduction for Text using Domain Knowledge&lt;/em&gt;&lt;/a&gt;. The 23rd International Conference on Computational Linguistics (COLING) 2010.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2009&#34;&gt;2009&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y. Mao and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/isotonicMLJ09.pdf&#34;&gt;&lt;em&gt;Generalized Isotonic Conditional Random Fields&lt;/em&gt;&lt;/a&gt;. Machine Learning 77(2-3):225-248, 2009.&lt;/li&gt;
+&lt;li&gt;G. Lebanon, M. Scannapieco, M. R. Fouad, and E. Bertino. &lt;a href=&#34;http://www.tdp.cat/issues/abs.a014a09.php&#34;&gt;&lt;em&gt;Beyond k-Anonymity: A Decision Theoretic Framework for Assessing Privacy Risk&lt;/em&gt;&lt;/a&gt;. Transactions on Data Privacy 2(3):153-183 2009.&lt;/li&gt;
+&lt;li&gt;E. Greenshtein, J. Park, and G. Lebanon. &lt;a href=&#34;http://dx.doi.org/10.1016/j.jspi.2008.04.027&#34;&gt;&lt;em&gt;Regularization through Variable Selection and Conditional MLE with Application to Classification in High Dimensions&lt;/em&gt;&lt;/a&gt;. Journal of Statistical Planning and Inference 139(2):385-395, 2009.&lt;/li&gt;
+&lt;li&gt;D. J. Kasik, D. Ebert, G. Lebanon, H. Park, and W. M. Pottenger. &lt;a href=&#34;http://ivi.sagepub.com/content/8/4/275.abstract&#34;&gt;&lt;em&gt;Data Transformations and Representations for Computation and Visualization&lt;/em&gt;&lt;/a&gt;. Information Visualization 8(4):275-285, 2009.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. Axiomatic Geometries for Text Documents. In P. Gibilisco, E. Riccomagno, M.-P. Rogantin, and H. P. Wynn (eds). &lt;a href=&#34;http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=0521896193&#34;&gt;&lt;em&gt;Algebraic and Geometric Methods in Statistics&lt;/em&gt;&lt;/a&gt;. Cambridge University Press, 2009.&lt;/li&gt;
+&lt;li&gt;Y. Mao and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/probconUAI2009.pdf&#34;&gt;&lt;em&gt;Domain Knowledge Uncertainty and Probabilistic Parameter Constraints&lt;/em&gt;&lt;/a&gt;. Proc. of the 25th Conference on Uncertainty in Artificial Intelligence (UAI), 2009.&lt;/li&gt;
+&lt;li&gt;P. Kidwell, G. Lebanon, and K. Collins-Thompson. &lt;a href=&#34;http://theanalysisofdata.com/gl/emnlp_read2009.pdf&#34;&gt;&lt;em&gt;Statistical Estimation of Word Acquisition with Application to Readability Prediction&lt;/em&gt;&lt;/a&gt;. Proc. of the Conference on Empirical Methods in Natural Language Processing (EMNLP), 2009.&lt;/li&gt;
+&lt;li&gt;J. V. Dillon and G. Lebanon. &lt;a href=&#34;http://jmlr.csail.mit.edu/proceedings/papers/v5/dillon09a/dillon09a.pdf&#34;&gt;&lt;em&gt;Statistical and Computational Tradeoffs in Stochastic Composite Likelihood&lt;/em&gt;&lt;/a&gt;. Proc. of the 12th International Conference on Artificial Intelligence and Statistics (AISTATS) JMLR W&amp;amp;CP 5:129-136, 2009.&lt;/li&gt;
+&lt;li&gt;M. Sun, G. Lebanon, and K. Collins-Thompson. &lt;a href=&#34;http://theanalysisofdata.com/gl/sevisNIPSW.pdf&#34;&gt;&lt;em&gt;Visualizing Spatial Proximity of Search Algorithms&lt;/em&gt;&lt;/a&gt;. NIPS Workhop on Learning with Ordering (poster abstract), 2009.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2008&#34;&gt;2008&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon and Y. Mao. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v9/lebanon08a.html&#34;&gt;&lt;em&gt;Non-parametric Modeling of Partially Ranked Data&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 9(Oct):2401-2429, 2008.&lt;/li&gt;
+&lt;li&gt;P. Kidwell, G. Lebanon, and W. S. Cleveland. &lt;a href=&#34;http://theanalysisofdata.com/gl/mdsRanking.pdf&#34;&gt;&lt;em&gt;Visualizing Incomplete and Partially Ranked Data&lt;/em&gt;&lt;/a&gt;. IEEE Transactions on Visualization and Computer Graphics 14(6):1356-1363, 2008.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and Y. Mao. &lt;a href=&#34;http://theanalysisofdata.com/gl/nips07Ranking.pdf&#34;&gt;&lt;em&gt;Non-Parametric Modeling of Partially Ranked Data&lt;/em&gt;&lt;/a&gt;. Advances in Neural Information Processing Systems 20, 2008.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and Y. Zhao. &lt;a href=&#34;http://theanalysisofdata.com/gl/localLikelihood.pdf&#34;&gt;&lt;em&gt;Local Likelihood Modeling of the Concept Drift Phenomenon&lt;/em&gt;&lt;/a&gt;. Proc. of the 25th International Conference on Machine Learning, 2008.&lt;/li&gt;
+&lt;li&gt;M. R. Fouad, G. Lebanon, and E. Bertino. &lt;a href=&#34;http://www.springerlink.com/content/b7r31154642w7j27/&#34;&gt;&lt;em&gt;ARUBA: A Risk-Utility-Based Algorithm for Data Disclosure&lt;/em&gt;&lt;/a&gt;. 5th VLDB Workshop on Secure Data Management. Lecture Notes in Computer Science, volume 5159, pages 32-49. Springer, 2008.&lt;/li&gt;
+&lt;li&gt;G. M. Howard, S. Bagchi, and G. Lebanon. &lt;a href=&#34;http://www.springerlink.com/content/545rg5kt7224p1r1/&#34;&gt;&lt;em&gt;Determining placement of intrusion detectors for a distributed application through Bayesian network modeling&lt;/em&gt;&lt;/a&gt;. 11th International Symposium on Recent Advances in Intrusion Detection (RAID). Lecture Notes in Computer Science, volume 5230, pages 271-290. Springer, 2008.&lt;/li&gt;
+&lt;li&gt;Z. Zhang, M. Gupta, S. Yang, G. Lebanon, Y. C. Hu, and S. Midkiff. &lt;a href=&#34;http://docs.lib.purdue.edu/ecetr/376/&#34;&gt;&lt;em&gt;Extracting Source Level Program Similarities from Dynamic Behavior&lt;/em&gt;&lt;/a&gt;. Technical Report TR-ECE-08-08, Purdue University, 2008.&lt;/li&gt;
+&lt;li&gt;A. Kamra, E. Bertino, and G. Lebanon. &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=1410318&#34;&gt;&lt;em&gt;Mechanisms for Database Intrusion Detection and Response&lt;/em&gt;&lt;/a&gt;. Proceedings of the 2nd SIGMOD PhD workshop on Innovative database research, pages 31-36, ACM Press 2008.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2007&#34;&gt;2007&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon, Y. Mao, and J. V. Dillon. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v8/lebanon07a.html&#34;&gt;&lt;em&gt;The Locally Weighted Bag of Words Framework for Document Representation&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 8(Oct):2405-2441, 2007.&lt;/li&gt;
+&lt;li&gt;Y. Mao, J. V. Dillon, and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/tvcg07.pdf&#34;&gt;&lt;em&gt;Sequential Document Visualization&lt;/em&gt;&lt;/a&gt;. IEEE Transactions on Visualization and Computer Graphics, 13(6):1208-1215, 2007.&lt;/li&gt;
+&lt;li&gt;J. V. Dillon, Y. Mao, G. Lebanon, and J. Zhang. &lt;a href=&#34;http://theanalysisofdata.com/gl/uai07-trans.pdf&#34;&gt;&lt;em&gt;Statistical Translation, Heat Kernels, and Expected Distances&lt;/em&gt;&lt;/a&gt;. Proc. of the 23rd Conference on Uncertainty in Artificial Intelligence, pages 93-100, 2007.&lt;/li&gt;
+&lt;li&gt;Y. Mao and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/sentimentNIPS.pdf&#34;&gt;&lt;em&gt;Isotonic Conditional Random Fields and Local Sentiment Flow&lt;/em&gt;&lt;/a&gt;. Advances in Neural Information Processing Systems 19, pages 961-968, 2007.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2006&#34;&gt;2006&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/TPAMI-0059-0105-2.pdf&#34;&gt;&lt;em&gt;Metric Learning for Text Documents&lt;/em&gt;&lt;/a&gt;. IEEE Transactions on Pattern Analysis and Machine Intelligence 28(4):497-508, 2006.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/curveRep.pdf&#34;&gt;&lt;em&gt;Sequential Document Representations and Simplicial Curves&lt;/em&gt;&lt;/a&gt;. Proc. of the 22nd Conference on Uncertainty in Artificial Intelligence, pages 273-280, 2006.&lt;/li&gt;
+&lt;li&gt;G. Lebanon, M. Scannapieco, M. R. Fouad, and E. Bertino. &lt;a href=&#34;http://dx.doi.org/10.1007/11930242_19&#34;&gt;&lt;em&gt;Beyond k-Anonymity: A Decision Theoretic Framework for Assessing Privacy Risk&lt;/em&gt;&lt;/a&gt;. Privacy in Statistical Databases. Lecture Notes in Computer Science, volume 4302, pages 217-232. Springer, 2006.&lt;/li&gt;
+&lt;li&gt;Y. Mao and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/sentimentWorkshop.pdf&#34;&gt;&lt;em&gt;Sequential Models for Sentiment Prediction&lt;/em&gt;&lt;/a&gt;. ICML workshop on Learning in Structured Output Spaces, 2006.&lt;/li&gt;
+&lt;li&gt;J. V. Dillon, Y. Mao, G. Lebanon, and J. Zhang. &lt;a href=&#34;http://theanalysisofdata.com/gl/lce06.pdf&#34;&gt;&lt;em&gt;Statistical Translation, Heat Kernels, and Expected Distances&lt;/em&gt;&lt;/a&gt;. NIPS workshop on Learning to Compare Examples, 2006.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2005&#34;&gt;2005&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/cenJournal.pdf&#34;&gt;&lt;em&gt;Axiomatic Geometry of Conditional Models&lt;/em&gt;&lt;/a&gt;. IEEE Transactions on Information Theory 51(4):1283-1294, 2005.&lt;/li&gt;
+&lt;li&gt;J. Lafferty and G. Lebanon. &lt;a href=&#34;http://jmlr.csail.mit.edu/papers/v6/lafferty05a.html&#34;&gt;&lt;em&gt;Diffusion Kernels on Statistical Manifolds&lt;/em&gt;&lt;/a&gt;. Journal of Machine Learning Research 6(Jan):129-163, 2005.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/IGAIA05tex.pdf&#34;&gt;&lt;em&gt;Information Geometry, the Embedding Principle, and Document Classification&lt;/em&gt;&lt;/a&gt;. Proc. of the 2nd International Symposium on Information Geometry and its Applications, pages 101-108, 2005.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/thesis_lebanon.pdf&#34;&gt;&lt;em&gt;Riemannian Geometry and Statistical Machine Learning&lt;/em&gt;&lt;/a&gt;. PhD Thesis. Technical Report CMU-LTI-05-189, 2005.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2004&#34;&gt;2004&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;ttp://theanalysisofdata.com/gl/uai-04.pdf&#34;&gt;&lt;em&gt;An Extended Cencov-Campbell Characterization of Conditional Information Geometry&lt;/em&gt;&lt;/a&gt;. Proc. of the 20th Conference on Uncertainty in Artificial Intelligence 2004.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and J. Lafferty. &lt;a href=&#34;http://theanalysisofdata.com/gl/icml04.pdf&#34;&gt;&lt;em&gt;Hyperplane Margin Classifiers on the Multinomial Manifold&lt;/em&gt;&lt;/a&gt;. Proc. of the 21st International Conference on Machine Learning, 2004.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2003&#34;&gt;2003&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon and J. Lafferty. &lt;a href=&#34;http://theanalysisofdata.com/gl/cecoc.pdf&#34;&gt;&lt;em&gt;Conditional Models on the Ranking Poset&lt;/em&gt;&lt;/a&gt;. Advances in Neural Information Processing Systems 15, pages 431-438, 2003.&lt;/li&gt;
+&lt;li&gt;J. Lafferty and G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/idk.pdf&#34;&gt;&lt;em&gt;Information Diffusion Kernels&lt;/em&gt;&lt;/a&gt;. Advances in Neural Information Processing Systems 15, pages 391-399, 2003.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://theanalysisofdata.com/gl/uai-03.pdf&#34;&gt;&lt;em&gt;Learning Riemannian Metrics&lt;/em&gt;&lt;/a&gt;. Proc. of the 19th Conference on Uncertainty in Artificial Intelligence 2003.&lt;/li&gt;
+&lt;li&gt;G. Lebanon. &lt;a href=&#34;http://reports-archive.adm.cs.cmu.edu/anon/2003/abstracts/03-145.html&#34;&gt;&lt;em&gt;Computing the Volume Element of a Family of Transformations on the Multinomial Simplex&lt;/em&gt;&lt;/a&gt;. Technical Report CMU-CS-03-145, 2003.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2002&#34;&gt;2002&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon and J. Lafferty. &lt;a href=&#34;http://theanalysisofdata.com/gl/nips01.pdf&#34;&gt;&lt;em&gt;Boosting and Maximum Likelihood for Exponential Models&lt;/em&gt;&lt;/a&gt;. Advances in Neural Information Processing Systems 14, pages 447-454, 2002.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and J. Lafferty. &lt;a href=&#34;http://theanalysisofdata.com/gl/cranking-icml.pdf&#34;&gt;&lt;em&gt;Cranking: Combining Rankings using Conditional Models on Permutations&lt;/em&gt;&lt;/a&gt;. Proc. of the 19th International Conference on Machine Learning, 2002.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and A. Bruckstein. &lt;a href=&#34;www.springer.com/west/0-306-47427-1&#34;&gt;&lt;em&gt;On Designing Moire Patterns&lt;/em&gt;&lt;/a&gt;. Visual Attention Mechanisms, pages 205-219. Springer, 2002.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2001&#34;&gt;2001&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G. Lebanon and A. Bruckstein. &lt;a href=&#34;http://www.opticsinfobase.org/abstract.cfm?id=64421&#34;&gt;&lt;em&gt;Variational Approach to Moire Pattern Synthesis&lt;/em&gt;&lt;/a&gt;. Journal of the Optical Society of America A 18(6):1371-1382, 2001.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and A. Bruckstein. &lt;a href=&#34;http://link.springer.de/link/service/series/0558/tocs/t2134.htm&#34;&gt;&lt;em&gt;Designing Moire Patterns&lt;/em&gt;&lt;/a&gt;. Energy Minimization Methods in Computer Vision and Pattern Recognition. Lecture Notes in Computer Science Vol. 2134, pages 185-201, Springer, 2001.&lt;/li&gt;
+&lt;li&gt;G. Lebanon and J. Lafferty. &lt;a href=&#34;http://reports-archive.adm.cs.cmu.edu/anon/2001/abstracts/01-144.html&#34;&gt;&lt;em&gt;Boosting and Maximum Likelihood for Exponential Models&lt;/em&gt;&lt;/a&gt;. Technical Report CMU-CS-01-144, 2001.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
