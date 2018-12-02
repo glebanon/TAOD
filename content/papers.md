@@ -1,9 +1,17 @@
++++
+date = "2018-12-01"
+
++++
+
+
+
+
 Books
 =====
-
+* G. Lebanon and M. El-Geish. [*Computing with Data: An Introduction to the Data Industry*](https://computingwithdata.com/), Springer 2018 ([amazon](https://www.amazon.com/Computing-Data-Introduction-Industry/dp/331998148X/)).
 * G. Lebanon and S. V. N. Vishwanathan (Editors). [*Proceedings of the 18th International AI and Statistics Conference*](http://www.jmlr.org/proceedings/papers/v38/), JMLR Workshop and Conference Proceedings, Volume 38, 2015.
 * G. Lebanon. [*Riemannian Geometry and Statistical Machine Learning*](http://www.amazon.com/Riemannian-Geometry-Statistical-Machine-Learning/dp/3659682020). Lambert Academic Publishing, 2015 (Reprint of 2005 PhD Dissertation).
-* G. Lebanon. [*Probability*](http://www.amazon.com/Probability-Analysis-Data-Guy-Lebanon/dp/1479344761/), The Analysis of Data, volume 1, 2013 (amazon, e-store).
+* G. Lebanon. [*Probability*](http://theanalysisofdata.com/book/), Createspace Publishing, 2013 ([amazon](https://www.amazon.com/Probability-Analysis-Data-Guy-Lebanon/dp/1479344761/))
 * X.-W. Chen, G. Lebanon, M. Zaki, and H. Wang (Editors). [*Proceedings of the 21st ACM Conference on Information and Knowledge Management*](http://dl.acm.org/citation.cfm?id=2396761). ACM Press 2012.
 
 

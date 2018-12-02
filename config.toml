@@ -266,7 +266,7 @@ align_right = true
 
 [[menu.main]]
 name = "Posts"
-url = "#posts"
+url = "post"
 weight = 1
 
 [[menu.main]]
@@ -278,6 +278,12 @@ weight = 2
 name = "Probability Book"
 url = "book"
 weight = 3
+
+[[menu.main]]
+name = "Computing Book"
+url = "https://computingwithdata.com/"
+weight = 3
+
 
 [[menu.main]]
 name = "Teaching Notes"

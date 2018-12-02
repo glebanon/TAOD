@@ -1,3 +1,9 @@
++++
+
+date = "2017-12-01"
+
++++
+
 
 
 A few years ago I was teaching probability theory at Purdue to undergrads and at the same time I was training several ML graduate students in probability and statistics. I wrote the book below with the intention of adding more volumes that include statistics and machine learning but did not get a chance to do so yet.
