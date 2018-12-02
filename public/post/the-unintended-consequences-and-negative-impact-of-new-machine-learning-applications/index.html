@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.40.2" />
+  <meta name="author" content="Guy Lebanon">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Machine learning applications are becoming more powerful and more pervasive, and as a result the risk of unintended consequences increases and must be carefully managed. Recent glitches by major companies demonstrate a failure to detect unintended consequences. In this post I describe a few examples and discuss ways to reduce unintended consequences associated with new machine learning applications.
+It seems that machine learning is taking over the high-tech world. Most consumer applications have a machine learning component, and the recent progress in machine learning technology and scalable infrastructure technology lead to new use-cases that were previously considered strictly experimental.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://theanalysisofdata.com/post/the-unintended-consequences-and-negative-impact-of-new-machine-learning-applications/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="http://theanalysisofdata.com/index.xml" type="application/rss+xml" title="Guy Lebanon&#39;s website">
+  <link rel="feed" href="http://theanalysisofdata.com/index.xml" type="application/rss+xml" title="Guy Lebanon&#39;s website">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://theanalysisofdata.com/post/the-unintended-consequences-and-negative-impact-of-new-machine-learning-applications/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@https://twitter.com/guy_lebanon">
+  <meta property="twitter:creator" content="@https://twitter.com/guy_lebanon">
+  
+  <meta property="og:site_name" content="Guy Lebanon&#39;s website">
+  <meta property="og:url" content="http://theanalysisofdata.com/post/the-unintended-consequences-and-negative-impact-of-new-machine-learning-applications/">
+  <meta property="og:title" content="The Unintended Consequences and Negative Impact of New Machine Learning Applications | Guy Lebanon&#39;s website">
+  <meta property="og:description" content="Machine learning applications are becoming more powerful and more pervasive, and as a result the risk of unintended consequences increases and must be carefully managed. Recent glitches by major companies demonstrate a failure to detect unintended consequences. In this post I describe a few examples and discuss ways to reduce unintended consequences associated with new machine learning applications.
+It seems that machine learning is taking over the high-tech world. Most consumer applications have a machine learning component, and the recent progress in machine learning technology and scalable infrastructure technology lead to new use-cases that were previously considered strictly experimental.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-05-06T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-05-06T00:00:00&#43;00:00">
+  
+
+  
+  
+
+  <title>The Unintended Consequences and Negative Impact of New Machine Learning Applications | Guy Lebanon&#39;s website</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Guy Lebanon&#39;s website</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="/post">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/papers">
+            
+            <span>Papers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="https://computingwithdata.com/" target="_blank" rel="noopener">
+            
+            <span>Computing Book</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="/book">
+            
+            <span>Probability Book</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/notes">
+            
+            <span>Teaching Notes</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">The Unintended Consequences and Negative Impact of New Machine Learning Applications</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-05-06 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      May 6, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Guy Lebanon">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=The%20Unintended%20Consequences%20and%20Negative%20Impact%20of%20New%20Machine%20Learning%20Applications&amp;url=http%3a%2f%2ftheanalysisofdata.com%2fpost%2fthe-unintended-consequences-and-negative-impact-of-new-machine-learning-applications%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2ftheanalysisofdata.com%2fpost%2fthe-unintended-consequences-and-negative-impact-of-new-machine-learning-applications%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2ftheanalysisofdata.com%2fpost%2fthe-unintended-consequences-and-negative-impact-of-new-machine-learning-applications%2f&amp;title=The%20Unintended%20Consequences%20and%20Negative%20Impact%20of%20New%20Machine%20Learning%20Applications"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2ftheanalysisofdata.com%2fpost%2fthe-unintended-consequences-and-negative-impact-of-new-machine-learning-applications%2f&amp;title=The%20Unintended%20Consequences%20and%20Negative%20Impact%20of%20New%20Machine%20Learning%20Applications"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=The%20Unintended%20Consequences%20and%20Negative%20Impact%20of%20New%20Machine%20Learning%20Applications&amp;body=http%3a%2f%2ftheanalysisofdata.com%2fpost%2fthe-unintended-consequences-and-negative-impact-of-new-machine-learning-applications%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p><img src="/post/2018-05-06-the-unintended-consequences-and-negative-impact-of-new-machine-learning-applications_files/1_6iK2Dttcz3FZwHSSsg_lAw.png" alt="" /></p>
+
+<p>Machine learning applications are becoming more powerful and more pervasive, and as a result the risk of unintended consequences increases and must be carefully managed. Recent glitches by major companies demonstrate a failure to detect unintended consequences. In this post I describe a few examples and discuss ways to reduce unintended consequences associated with new machine learning applications.</p>
+
+<p>It seems that machine learning is taking over the high-tech world. Most consumer applications have a machine learning component, and the recent progress in machine learning technology and scalable infrastructure technology lead to new use-cases that were previously considered strictly experimental. Forr example, improvements in speech recognition have recently led to a variety of digital assistants (MS Cortana, Amazon Alexa, Apple Siri, Google Now). Another example is new computer vision technology that led to automatic photo labeling.</p>
+
+<p>Creating new applications that use machine learning is difficult work. And so it is understandable that when engineers and scientists make a technological breakthrough and have an effective product they rush to market without carefully considering possible unintended consequences. On the other hand, product managers more often than not do not have the engineering and science background to provide necessary guidance and leadership.</p>
+
+<p>I describe below three recent examples.</p>
+
+<ul>
+<li>In May 2015 Flickr released an automatic image tagging capability that <a href="https://www.theguardian.com/technology/2015/may/20/flickr-complaints-offensive-auto-tagging-photos">mistakenly labeled</a> a black man for an ape, Auschwitz for sports, and Dachau for a jungle gym. After the story broke out, Flickr apologized and removed some offensive tags. Obviously, the engineers, scientists, and product managers did not foresee these mistakes and the anger that would follow. Instead of celebrating a technological win, Flickr suffered a PR blow.</li>
+<li>Soon afterwards, Google came up with a photo labeling tool similar to Flickr, which made <a href="https://blogs.wsj.com/digits/2015/07/01/google-mistakenly-tags-black-people-as-gorillas-showing-limits-of-algorithms/">similar mistakes</a>. Black men were tagged as gorillas. Google removed the offensive tags and Google’s Yonatan Zunger admitted the mistake saying “Lots of work being done, and lots still to be done. But we’re very much on it”. Amazingly, they made the same mistake as Flickr in not understanding the impact of possible mistakes on their users and on the public. The result again was offending a wide segment of the population rather than scoring a PR win due to technological “success”.</li>
+<li>A recent Carnegie Mellon University <a href="http://www.andrew.cmu.edu/user/danupam/dtd-pets15.pdf">study</a> showed that Google displayed ads in a way that discriminated based on the gender of the user. The study created multiple fake persona, some males and some females, with identical browsing history. Later, a third party site showed Google ads for senior executive positions six times more to the fake men than to the fake women. The ad matching algorithm may have picked up a signal in the data, but the end result is that it discriminated based on gender. In other words, the algorithm picked up on the gender pay gap and helped to perpetuate it. There are likely millions of people today who are affected by such data-based discrimination but it is very hard to prove (without the creation of fake persons with controlled browsing history as the CMU study did).</li>
+</ul>
+
+<p>There are more examples, but these three cases above are sufficient to show a trend. Machine learning technology is advancing fast and neither the engineers and scientists nor the product managers are able to predict negative unintended consequences and slow down new launches (at least in some cases).</p>
+
+<p>Some may argue that this is not such a big deal. The algorithms pick up signals in the data and when the team discovers that there is a “glitch” they fix it. One problem is that there may be a very large number of undetected cases with a very large impact on society. The Google ads case is one example where systematic discrimination was being perpetrated on a very large number of Google users for potentially a long time (and perhaps still is). A second problem is that the pace of innovation is high and it is hard to predict what future ML applications will do and what would be the possible unintended consequences. With self driving cars, for example, this could be a life or death situation.</p>
+
+<p>This brings us to the question of what can we do to decrease the chance of such blunders happening in the future. Completely stifling machine learning innovation is not a desirable solution. There seem to be two possibilities: put the burden of anticipating unintended consequences on the engineers and scientists that develop the applications, or on product managers that provide guidance and direction.</p>
+
+<p>There are two issues at hand: (a) estimating unintended consequences, and (b) assigning value or negative impact to them. Engineers and scientists are better at (a), while product managers (and if needed company executives) are better at (b). But it probably makes sense for these professionals to refine their answers to (a) and (b) by working together. Engineers and scientist need to broader their perspective and think beyond technology about company and society impact, and product managers need to have a better technical understanding of machine learning.</p>
+
+<p>Based on the examples above and others, it is pretty clear that every novel machine learning application should have a careful review of estimating unintended consequences and estimating the corresponding negative impact, and if needed escalate to company executives for resolution.</p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

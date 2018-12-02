@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Guy Lebanon&#39;s website</title>
+    <link>http://theanalysisofdata.com/post/</link>
+    <description>Recent content in Posts on Guy Lebanon&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://theanalysisofdata.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic Careers vs. Industry Careers</title>
+      <link>http://theanalysisofdata.com/post/academic-careers-vs-industry-careers/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://theanalysisofdata.com/post/academic-careers-vs-industry-careers/</guid>
+      <description>The following is an edited transcription of a Q&amp;amp;A session titled “Academic Careers vs. Industry Careers” given by Greg Duncan and Guy Lebanon to summer interns at Amazon in the summer of 2014. Some of the content is specifically aimed at the fields of machine learning, statistics, and economics. The content does not reflect the official perspective of Amazon in any way.
+Q: What are your backgrounds?
+Greg: I am the Chief Economist and Statistician in GIP.</description>
+    </item>
+    
+    <item>
+      <title>Image Optimization at Netflix</title>
+      <link>http://theanalysisofdata.com/post/image-optimization-at-netflix/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://theanalysisofdata.com/post/image-optimization-at-netflix/</guid>
+      <description>(Comment: this post was originally written in May 2016 when the author was leading the image optimization project at Netflix)
+At Netflix, we figured out that optimizing which images to show users when suggesting videos makes a big difference. For example in the image above we see 6 images describing the new Netflix original “The Unbreakable Kimmy Schmidt”. The image at the bottom right attracts more users than the default image at the top left.</description>
+    </item>
+    
+    <item>
+      <title>Investment Banking vs. High Tech Compensations</title>
+      <link>http://theanalysisofdata.com/post/investment-banking-vs-high-tech-compensations/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://theanalysisofdata.com/post/investment-banking-vs-high-tech-compensations/</guid>
+      <description>The following chart shows how overall compensation of the top performers (25%) in investment banking has fallen in the past 7 years. There is a significant downward trend-a loss of 30%-70% of overall compensation depending on specific sub-industry.
+Obviously some correction was to be expected after the bubble burst of 2009, but it looks like compensation kept going down in the last few years as well.
+Salaries in high-tech on the other hand have risen sharply.</description>
+    </item>
+    
+    <item>
+      <title>My kids are smarter than me</title>
+      <link>http://theanalysisofdata.com/post/my-kids-are-smarter-than-me/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://theanalysisofdata.com/post/my-kids-are-smarter-than-me/</guid>
+      <description>I always assumed that my 6 and 7-year-old kids will start surpassing me in some cognitive ways much further down the road. What surprised me is how early it happened: at age 6.
+A couple of weeks ago my 6-year-old son started to consistently beat me in the game Connect-4 (5 wins out of 5 games in our most recent match where I played as hard as I could). Connect-4 is a great game for kids where two players drop discs that fall into place on top of other discs with the goal of creating a sequence of 4 discs—horizontally, vertically, or diagonally.</description>
+    </item>
+    
+    <item>
+      <title>Network Effects and Viral Loops in LinkedIn and Medium</title>
+      <link>http://theanalysisofdata.com/post/network-effects-and-viral-loops-in-linkedin-and-medium/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://theanalysisofdata.com/post/network-effects-and-viral-loops-in-linkedin-and-medium/</guid>
+      <description>Recently, I published a couple of posts on both LinkedIn and Medium in parallel. The process was as follows:
+ Post an identical text on LinkedIn and Medium within minutes of each other (with public viewing permission). Create a single Facebook post letting people know about both posts and containing links to the posts on the two platforms. Sit back and observe the number of views, likes, and comments and how they change over time.</description>
+    </item>
+    
+    <item>
+      <title>The Unintended Consequences and Negative Impact of New Machine Learning Applications</title>
+      <link>http://theanalysisofdata.com/post/the-unintended-consequences-and-negative-impact-of-new-machine-learning-applications/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://theanalysisofdata.com/post/the-unintended-consequences-and-negative-impact-of-new-machine-learning-applications/</guid>
+      <description>Machine learning applications are becoming more powerful and more pervasive, and as a result the risk of unintended consequences increases and must be carefully managed. Recent glitches by major companies demonstrate a failure to detect unintended consequences. In this post I describe a few examples and discuss ways to reduce unintended consequences associated with new machine learning applications.
+It seems that machine learning is taking over the high-tech world. Most consumer applications have a machine learning component, and the recent progress in machine learning technology and scalable infrastructure technology lead to new use-cases that were previously considered strictly experimental.</description>
+    </item>
+    
+  </channel>
+</rss>
